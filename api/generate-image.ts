@@ -1,4 +1,4 @@
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Esta é uma Função de Borda (Edge Function), que é o padrão em plataformas modernas
 // como Vercel ou Netlify. Ela é executada em um ambiente de servidor seguro.
@@ -34,7 +34,7 @@ export default async function handler(req: Request) {
 
   // 3. Inicialize o cliente Gemini com a chave segura e chame a API.
   try {
-    const ai = new GoogleGenAI({ apiKey });
+    import { GoogleGenerativeAI } from "@google/generative-ai";
     const response = await ai.models.generateImages({
       model: 'imagen-3.0-generate-002',
       prompt: `${prompt}. Estilo de pintura digital, dramático, cinematográfico.`,
