@@ -1,0 +1,6 @@
+{
+  "name": "A Jornada de Maomé: Uma Aventura Interativa",
+  "description": "Uma aventura de texto dinâmica e acessível sobre a vida do Profeta Maomé, projetada para estudantes com baixa visão. O jogo apresenta texto em letras grandes, narração em áudio e imagens geradas por IA para uma experiência de aprendizagem imersiva e autônoma.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
